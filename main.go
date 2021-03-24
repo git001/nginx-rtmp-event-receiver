@@ -92,5 +92,5 @@ func main() {
 		fmt.Printf("Config %#v\n", app.Config())
 	}
 
-	log.Fatal(app.Listen(os.Getenv("LISTEN_PORT")))
+	log.Fatal(app.Listen(viper.GetString("config.ListenPort")))
 }

@@ -1,0 +1,13 @@
+---
+config:
+  debug: false
+  # 256 * 1024
+  Concurrency: 262144
+  DisableStartupMessage: false
+  ReadTimeout: 2s
+  WriteTimeout: 2s
+  IdleTimeout: 5s
+  ListenPort: ":3000"
+
+streams:
+  camera-3412: true

@@ -1,0 +1,7 @@
+*.vscode/*
+*.code-workspace
+
+**/bin*
+**/certs*
+
+*.log
